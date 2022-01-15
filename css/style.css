@@ -354,7 +354,7 @@ body{
         margin: 0;
     }
     .spf-left{
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         /* text-align: center; */
@@ -401,6 +401,12 @@ body{
     .product-items{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
+        padding: 0;
+    }
+    .more-featrs{
+        margin-top: 40px;
+        margin-bottom: 0;
+        float: none;
     }
     .reviews{
         grid-template-columns: repeat(1, 1fr);
@@ -408,6 +414,7 @@ body{
     }
     .review-body{
         width: 100%;
+        margin-top: 50px;
     }
     .review-body > h2{
         text-align: center;
@@ -415,7 +422,6 @@ body{
         /* font-size: 28px; */
         font-weight: 600;
         /* line-height: 70px; */
-        margin-bottom: 10px;
         margin: 0;
         display: inline-block;
     }
@@ -446,13 +452,11 @@ body{
     }
     .head-left{
         width: 55%;
-
-        text-align: center;
+         text-align: center;
     }
     .head-left > a{
         /* margin-left: 10px; */
         margin-right: 50px;
-        margin-left: 50px;
     }
     .head-right{
         /* width: 30%; */
@@ -471,7 +475,7 @@ body{
         /* text-align: center; */
     }
     .spf-left > h1{
-        text-align: center;
+
     }
     .spf-left > p{
         width: 100%;
