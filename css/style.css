@@ -446,10 +446,13 @@ body{
     }
     .head-left{
         width: 55%;
+
+        text-align: center;
     }
     .head-left > a{
         /* margin-left: 10px; */
         margin-right: 50px;
+        margin-left: 50px;
     }
     .head-right{
         /* width: 30%; */
@@ -467,11 +470,16 @@ body{
         display: block;
         /* text-align: center; */
     }
+    .spf-left > h1{
+        text-align: center;
+    }
     .spf-left > p{
         width: 100%;
         text-align: center;
         display: block;
-
+    }
+    .spf-left > a{
+        margin-left: 40%;
     }
     .popular-product{
         width: 100%;
@@ -480,6 +488,7 @@ body{
     .product-items{
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
+        margin-left: 30px;
     }
     .more-featrs{
         float: left;
@@ -489,6 +498,7 @@ body{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 30px;
+        margin-left: 80px;
     }
     .foot-menu{
         width: 100%;
